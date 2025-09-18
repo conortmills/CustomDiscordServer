@@ -1,0 +1,15 @@
+{
+  "name": "aom-retold-gamenight-bot",
+  "version": "1.0.0",
+  "description": "AoM Retold: game scheduling + map voting",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node index.js register"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
